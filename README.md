@@ -69,7 +69,7 @@ If requirements.txt is not available:
 ```bash
 pip install google-generativeai speechrecognition pyttsx3 pyaudio
  ```
-with your Google Generative AI API Key.
+* with your Google Generative AI API Key.
 
 ### ▶️ How to Run the Project
 ```bash
@@ -77,49 +77,51 @@ python main.py
  ```
 
 ### 4️⃣ API Configuration
-For API Key: Visit Google AI Studio to get your API key.
+* For API Key: Visit Google AI Studio to get your API key.
 Open main.py and replace:
 ```bash
 API_KEY = 'Your_api_key'
  ```
-For Model: If you want to use a different model than the default (gemini-pro), you can:
-Visit the Google AI Studio to browse and select the model that best suits your needs.
+* For Model: If you want to use a different model than the default (gemini-pro), you can:
+* Visit the Google AI Studio to browse and select the model that best suits your needs.
 
 ### ⚠️ Note:
 
-Google provides a free tier for Generative AI with limited monthly usage.
-If you exceed the free quota or use premium models, charges may apply.
-Use Responsibly, stay within free limits and avoid unexpected charges.
+* Google provides a free tier for Generative AI with limited monthly usage.
+  
+* If you exceed the free quota or use premium models, charges may apply.
+  
+* Use Responsibly, stay within free limits and avoid unexpected charges.
 
 ---
 
 ### 🧑‍💻 How Py Astra Works
 
-1.Listens to the user’s voice input
+* Listens to the user’s voice input
 
-2.Converts speech to text
+* Converts speech to text
 
-3.Sends query to Gemini AI
+* Sends query to Gemini AI
 
-4.Receives Python-based response
+* Receives Python-based response
 
-5.Converts text to speech and speaks back
+* Converts text to speech and speaks back
 
 ---
 
 ### 🚀 Usage
-1. Run the script:
+* Run the script:
  ```bash
    python Py Astra.py
  ```
 
-2.Speak your Python-related question when prompted.
+* Speak your Python-related question when prompted.
 
-3.Py Astra will respond with a spoken answer.
+* Py Astra will respond with a spoken answer.
 
-4.Say "explain in detail" or "give me more details" if you want a longer explanation.
+* Say "explain in detail" or "give me more details" if you want a longer explanation.
 
-5.Say "exit" anytime to stop the program.
+* Say "exit" anytime to stop the program.
 
 ---
 
@@ -127,15 +129,15 @@ Use Responsibly, stay within free limits and avoid unexpected charges.
 ---
 Py Astra.py: Main script containing:
 
- API configuration google-generativeai
+ * API configuration google-generativeai
 
- Voice input using speech_recognition
+ * Voice input using speech_recognition
 
- Voice output using pyttsx3
+ * Voice output using pyttsx3
 
- Gemini model prompt construction and interaction
+ * Gemini model prompt construction and interaction
  
- Voice-based command loop
+ * Voice-based command loop
  
 ---
 
@@ -146,7 +148,7 @@ Contributions are welcome! If you'd like to suggest improvements, report bugs, o
 ---
 
 ## 📬Contact
-For queries or suggestions, please contact:  
+* For queries or suggestions, please contact:  
 [pratapashanumukhi@gmail.com](mailto:pratapashanumukhi@gmail.com)
 
 ---
